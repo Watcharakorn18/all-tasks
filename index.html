@@ -769,7 +769,7 @@
 </script>
 
 <script>
-const PASS = '6/2 Leamsing';
+const PASS = '6/2';
 const ADMIN_PASS = 'Watcharakorn';
 
 let state = {
@@ -896,7 +896,7 @@ function initApp() {
 function setGreeting() {
   const now = new Date();
   const h = now.getHours();
-  const greet = h < 12 ? 'อรุณสวัสดิ์' : h < 17 ? 'สวัสดีตอนบ่าย' : 'สวัสดีตอนเย็น';
+  const greet = h < 12 ? 'มอนิ่งพวกลาบ' : h < 17 ? 'บ่ายแล้วไอ่พวกลาบ' : 'เย็นละพวกลาบ';
   document.getElementById('greeting').textContent = greet;
   const days = ['อาทิตย์','จันทร์','อังคาร','พุธ','พฤหัสบดี','ศุกร์','เสาร์'];
   const months = ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
